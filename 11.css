@@ -1,0 +1,22 @@
+.square1 {
+    float: left;
+    width: 50px;
+    height: 50px;
+    border: 1px solid red;
+    margin-right: 20px;
+}
+
+.square2 {
+    float: left;
+    width: 50px;
+    height: 50px;
+    border: 1px solid blue;
+    margin-right: 20px;
+}
+
+.square3 {
+    float: left;
+    width: 50px;
+    height: 50px;
+    border: 1px solid green;
+}

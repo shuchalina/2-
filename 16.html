@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Задание №16</title>
+    <link rel="stylesheet" type="text/css" href="16.css">
+</head>
+
+<body>
+    <header>
+        <div id="hd">
+            <div id="red"></div>
+            <div id="yellow"></div>
+            <div id="green"></div>
+            <p id="hdp">HTML5 Contact Form</p>
+            <img src="/1.png">
+        </div>
+    </header>
+    <div class="blok">
+        <form>
+            <h1>Contact Us</h1>
+            <hr class="hr1" noshade>
+            <p>Name*:<input type="text" placeholder="Your name" required pattern="[A-Za-zА-ЯЁа-яё]+"></p>
+            <hr noshade>
+            <p>Email*:<input type="email" placeholder="Your email" required></p>
+            <hr noshade>
+            <p>Website*:<input type="url" placeholder="Your website" required id="web" pattern="https?://.+\..+"></p>
+            <hr noshade>
+            <p>Message:<textarea name="textarea"></textarea></p>
+            <hr noshade>
+        </form>
+        <button>Submit Form</button>
+        <hr class="hr1">
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,105 @@
+@font-face {
+    font-family: "Roboto Bold";
+    src: url(RobotoBold.ttf);
+}
+
+@font-face {
+    font-family: "Roboto Regular";
+    src: url(RobotoRegular.ttf);
+}
+
+table {
+    width: 642px;
+    height: 642px;
+    background-color: #fb3249;
+    border: 8px solid #404141;
+    margin: auto;
+    margin-top: 55px;
+    color: white;
+    text-align: center;
+}
+
+table td {
+    vertical-align: top;
+}
+
+#p1 {
+    font-family: "Roboto Bold";
+    font-size: 50px;
+    margin: 0px;
+}
+
+#p2 {
+    font-family: "Roboto Regular";
+    font-size: 15px;
+    margin: 0px;
+}
+
+input {
+    width: 557px;
+    height: 36px;
+    margin-top: 11px;
+    background-color: #cb2538;
+    border: 0;
+    font-family: "Roboto Regular";
+    font-size: 12px;
+    padding: 8px 12px;
+    color: white;
+    outline: none;
+}
+
+select {
+    width: 582px;
+    height: 60px;
+    margin-top: 11px;
+    background-color: #cb2538;
+    border: 0;
+    font-family: "Roboto Regular";
+    font-size: 15px;
+    color: white;
+    padding: 7px 6px;
+    outline: none;
+}
+
+textarea {
+    width: 560px;
+    height: 126px;
+    margin-top: 11px;
+    background-color: #cb2538;
+    border: 0;
+    font-family: "Roboto Regular";
+    font-size: 12px;
+    padding: 12px 12px;
+    color: white;
+    resize: none;
+    outline: none;
+}
+
+input[type="button"] {
+    width: 584px;
+    height: 81px;
+    background-color: white;
+    border: 0;
+    color: #fb3249;
+    font-family: "Roboto Regular";
+    font-size: 17px;
+    box-shadow: 0 8px rgb(104, 104, 104);
+    outline: none;
+}
+
+input[type="button"]:hover {
+    background-color: #d4d3d3;
+}
+
+input[type="button"]:active {
+    background-color: white;
+    box-shadow: 0 5px rgb(44, 44, 44);
+    transform: translateY(3px);
+    border: 0;
+    outline: none;
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+    color: rgba(255, 2555, 255, 0.7);
+}
